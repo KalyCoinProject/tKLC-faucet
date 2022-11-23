@@ -1,0 +1,16 @@
+{
+  "environment": "prod",
+  "debug": false,
+  "Captcha": {
+    "secret": ""
+  },
+  "Ethereum": {
+    "milliEtherToTransfer": 5000,
+    "gasLimit": "21000",
+    "prod": {
+      "rpc": "https://testnetrpc.kalycoin.io/rpc",
+      "account": "",
+      "privateKey": ""
+    }
+  }
+}
